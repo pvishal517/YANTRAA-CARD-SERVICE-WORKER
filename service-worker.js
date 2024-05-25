@@ -3,7 +3,7 @@ self.addEventListener('install', function(event) {
     caches.open('yantraa-cards').then(function(cache) {
       return cache.addAll([
         // Add URLs of assets to cache
-        '/'
+        'https://yantraacards.blogspot.com'
       ]);
     })
   );
